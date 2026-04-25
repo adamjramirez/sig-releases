@@ -37,7 +37,7 @@ By week four, your AI knows your work better than a colleague who just joined.
 - **Your thinking, not just the facts** — captures what you actually think happened, not just the official version
 - **Works with any AI** — Claude, ChatGPT, GitHub Copilot, Gemini. Whichever you already use
 - **Private by default** — nothing leaves your machine until you choose to share it
-- **Team knowledge** — when you're ready, share what's worth sharing to a central knowledge base your whole team can draw from. Everyone on the team needs Sig to contribute or pull from it
+- **Team knowledge** — when you're ready, share what's worth sharing to a central knowledge base your whole team can draw from
 - **No terminal, no setup** — it's an app. Open it, type, done
 
 ## The payoff compounds
@@ -46,11 +46,11 @@ By week four, your AI knows your work better than a colleague who just joined.
 **Week 4:** Your AI knows your people, your projects, your open threads.  
 **Week 12:** You've built something nobody else has — months of real work history that makes every AI you use dramatically sharper.
 
-## Coming soon
+## Get early access
 
-Sig is in private beta on macOS. Signed builds and public download coming shortly.
+**[→ sig.so](https://sig.so)**
 
-**Want early access?** [Open an issue](https://github.com/adamjramirez/sig-releases/issues/new?title=Early+access+request&body=Tell+us+a+bit+about+how+you+work+and+what+brought+you+here.) or star this repo — we'll announce here when public download is live.
+Leave your email and we'll let you know when the download is ready.
 
 ---
 
