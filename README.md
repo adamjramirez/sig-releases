@@ -48,7 +48,7 @@ By week four, your AI knows your work better than a colleague who just joined.
 
 ## Get early access
 
-**[→ sig.so](https://sig.so)**
+**[→ sig-ai.app](https://sig-ai.app)**
 
 Leave your email and we'll let you know when the download is ready.
 
