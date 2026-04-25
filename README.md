@@ -9,6 +9,10 @@
   macOS &nbsp;·&nbsp; Private beta &nbsp;·&nbsp; Free while in early access
 </p>
 
+<p align="center">
+  <a href="https://sig-ai.app"><strong>sig-ai.app</strong></a>
+</p>
+
 ---
 
 ## The problem
@@ -53,6 +57,10 @@ By week four, your AI knows your work better than a colleague who just joined.
 Leave your email and we'll let you know when the download is ready.
 
 ---
+
+<p align="center">
+  <a href="https://sig-ai.app"><strong>sig-ai.app</strong></a>
+</p>
 
 <p align="center">
   <sub>Sig is short for Sigma (Σ) — the Greek letter for summation. Every meeting adds to the sum of what your AI knows.</sub>
