@@ -4,60 +4,51 @@ First public beta. Welcome.
 
 ## What works
 
-- Capture: talk through a meeting, get a structured private note
-- Synthesis: facts separated from your personal layer, stored on your machine
-- Share: review the exact text before anything leaves your machine
-- Skills: reusable workflows (1:1 prep, weekly updates, call debriefs)
-- Works alongside Claude, ChatGPT, Gemini (Copilot support coming soon)
-
-## Known issues
-
-<!-- Replace with the real list. Examples of the kinds of things that belong here: -->
-- [ ] First-launch Gatekeeper warning on macOS — see Install below
-- [ ] (list anything you already know is rough — long captures, specific edge cases, etc.)
-- [ ] (list anything you've deferred for v0.2)
+- **Capture** — talk through a meeting, get a structured private note
+- **Synthesis** — facts separated from your personal layer, stored on your machine
+- **Share** — review the exact text before anything leaves your machine; nothing is sent without your explicit approval
+- **Skills** — reusable workflows like 1:1 prep, weekly updates, and call debriefs
+- Works alongside Claude, ChatGPT, and Gemini. GitHub Copilot support is coming soon.
 
 ## Install
 
 **macOS** (13 Ventura or later)
 
-1. Download `Sig-0.1.0-beta.dmg` below.
+1. Download `Sig-0.1.0-beta.dmg` from the assets below.
 2. Open the DMG and drag Sig to Applications.
-3. Open Sig from Applications. The build is signed and notarized by Apple, so it should open without warnings.
+3. Open Sig from Applications. The build is signed and notarized by Apple, so it opens without security warnings.
 
 **Linux**
 
-1. Download the Linux build below (`Sig-0.1.0-beta.AppImage` / `.deb` — pick the one for your distro).
-2. <!-- AppImage: --> Mark it executable (`chmod +x Sig-*.AppImage`) and run it.
-3. <!-- .deb: --> Install with `sudo dpkg -i Sig-*.deb` (or your package manager's equivalent).
+Download the Linux package from the assets below and follow the install steps in its accompanying README. Captures and notes are stored as plain markdown in the folder you choose during first-run setup.
 
 ## Uninstall
 
-Drag Sig from Applications to the Trash. Your captures stay on your machine as plain markdown in `~/...` (document the actual path). Delete that folder if you want them gone.
+Drag Sig from Applications to the Trash (macOS), or remove the package via your package manager (Linux). Your captures stay on your computer as plain markdown in the folder you picked during setup. Delete that folder if you want them gone.
 
 ## Privacy
 
 - Your memory stays on your computer as plain markdown in the folder you pick.
 - Messages go directly to your chosen AI provider — Sig doesn't proxy, log, or intercept them.
-- Optional connections (Slack, team KB, voice) only run when you turn them on.
-- Anonymous usage counts during beta — see Telemetry below.
+- Optional connections (Slack, team knowledge base, voice) only run when you turn them on.
+- Sig sends a small set of anonymous events for crash diagnostics and product improvement.
 
-Full details in-app: Settings → Privacy. Questions: privacy@sig-ai.app
+Full policy: https://sig-ai.app/privacy. In-app: Settings → Privacy. Questions: privacy@sig-ai.app.
 
 ## Telemetry
 
-Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, scrubbed crash details. Events go to an EU-hosted instance.
+Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, and scrubbed crash details. Events go to an EU-hosted instance.
 
 **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text.
 
-See Settings → Privacy in the app for the full list.
+The full list of allowed events ships with the app and lives in `docs/analytics.md`.
 
 ## Reporting bugs
 
 Open an issue: https://github.com/sig-ai-app/sig-releases/issues/new/choose
 
-For anything sensitive: adam@sig-ai.app
+For anything sensitive: hello@sig-ai.app.
 
 ## What's next
 
-This is a beta. Expect rough edges. The fastest way to make Sig better is to tell us where it gets in your way.
+This is a beta. The fastest way to make Sig better is to tell us where it gets in your way — small frictions count.
