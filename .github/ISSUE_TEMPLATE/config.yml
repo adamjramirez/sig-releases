@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request early access
+    url: https://sig-ai.app
+    about: Sign up for the beta on sig-ai.app — please don't open an issue for access requests.
+  - name: Billing, account, or private questions
+    url: mailto:adam@sig-ai.app
+    about: Email us directly for anything you don't want to discuss in public.

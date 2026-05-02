@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in Sig isn't working the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more detail, the faster we can fix it.
+
+  - type: input
+    id: sig-version
+    attributes:
+      label: Sig version
+      description: Find this in Sig → About, or in the release name you downloaded.
+      placeholder: "e.g. 0.1.0-beta"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "e.g. 14.4 (Sonoma)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Sig
+        2. ...
+        3. ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Drag images in directly. If Sig produced an error, paste the message here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I've reviewed my report and removed any private meeting content, names, or notes I don't want public.
+          required: true

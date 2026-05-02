@@ -1,0 +1,27 @@
+name: Feedback or feature request
+description: Something feels off, missing, or could be better.
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: What were you trying to do?
+      description: The situation matters more than the suggestion. Tell us what you were trying to get done.
+    validations:
+      required: true
+
+  - type: textarea
+    id: friction
+    attributes:
+      label: Where did Sig get in the way (or fall short)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would have made it work for you?
+      description: Optional — even just naming the problem is useful.
+    validations:
+      required: false

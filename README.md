@@ -6,7 +6,7 @@
 <p align="center"><strong>Capture. End of day. Share.</strong></p>
 
 <p align="center">
-  macOS 13+ &nbsp;·&nbsp; Free while in early access &nbsp;·&nbsp; Works with Claude, ChatGPT, Copilot, Gemini
+  macOS 13+ &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Free while in early access &nbsp;·&nbsp; Works with Claude, ChatGPT, Gemini (Copilot coming soon)
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ Nothing reaches your team without your explicit approval. That's the whole mecha
 - **Your thinking, not just the facts** — Sig saves two things: the factual record, and your personal layer — your read on what it means, your honest take. The personal layer stays on your machine and is never shared
 - **Team knowledge with one click** — share what's worth sharing to a central knowledge base your whole team draws from. Your teammate's Sig has it as context immediately — git handles the sync in the background, invisibly
 - **Skills sync the same way** — reusable workflows (1:1 prep, weekly updates, call debriefs) shared with your team in one click. Non-technical users never see the git layer
-- **Works with the AI you already have** — Claude, ChatGPT, GitHub Copilot, Gemini. Sig is the context layer under your AI tools, not another subscription to choose between
+- **Works with the AI you already have** — Claude, ChatGPT, Gemini today; GitHub Copilot coming soon. Sig is the context layer under your AI tools, not another subscription to choose between
 - **Private by default, shared by choice** — everything lands on your machine as plain markdown. Nothing leaves until you review the exact text and approve it yourself
 - **No terminal, no setup** — it's an app. Open it, talk, done
 
@@ -55,13 +55,16 @@ Nothing reaches your team without your explicit approval. That's the whole mecha
 
 ## Privacy
 
-Three commitments, plain English:
+Plain English, what leaves your computer and what doesn't:
 
-1. Everything you capture lands on your machine as plain markdown. No server copy by default.
-2. Your personal layer — your thinking — is never synced, never trained on, never shared without your explicit approval.
-3. When you do share, you read the exact text Sig prepares, decide what to include, and click publish yourself. That's the whole process.
+1. **Your memory stays on your computer.** People, projects, weeks, thoughts — Sig writes them as plain markdown files in the folder you choose during setup. There is no Sig server holding your content. Open the folder, read the files, copy them, or delete them anytime.
+2. **Your messages go to your provider directly.** When you send a message, Sig talks to your chosen AI provider (Claude, ChatGPT, etc.) from your computer. We don't proxy, log, or intercept those requests. Your provider keys live in your computer's secure keychain.
+3. **Optional connections only run when you turn them on.** Slack, team knowledge base, voice input — each is off by default and disconnectable anytime.
+4. **Anonymous usage counts.** Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, scrubbed crash details. **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text. Events go to an EU-hosted instance — nothing leaves the EU region.
 
 If you uninstall Sig, your notes stay on your computer. There's nothing to export — you already own the files.
+
+Questions: privacy@sig-ai.app
 
 ## Get early access
 

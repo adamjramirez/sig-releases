@@ -1,0 +1,36 @@
+Sig — Proprietary License
+Copyright (c) 2026 Sig. All rights reserved.
+
+This repository contains release artifacts, documentation, screenshots, and
+related materials ("Materials") for the Sig application ("Software"). The
+Software is a commercial, paid product.
+
+1. Materials in this repository (including the README, screenshots, branding,
+   and any text or images) are copyrighted. No license is granted to copy,
+   modify, redistribute, or create derivative works, except that you may quote
+   brief excerpts for the purpose of review or commentary with attribution.
+
+2. The Software, when distributed via this repository as a downloadable build,
+   is licensed — not sold. During early access, the Software is made available
+   for evaluation use, free of charge. We may introduce a separate End User
+   License Agreement (EULA) and pricing in the future on reasonable notice.
+   In the absence of a separate EULA, all rights to the Software are reserved
+   and your use is limited as set out in this file.
+
+3. You may NOT, without prior written permission:
+   (a) redistribute, sublicense, sell, rent, lease, or lend the Software or
+       any portion of it;
+   (b) reverse engineer, decompile, or disassemble the Software, except to
+       the extent such activity is expressly permitted by applicable law;
+   (c) modify the Software or create derivative works based on it;
+   (d) remove or alter any proprietary notices, labels, or marks;
+   (e) use the Sig name, logo, or branding in a way that suggests endorsement
+       or affiliation without permission.
+
+4. THE MATERIALS AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES,
+   OR OTHER LIABILITY ARISING FROM USE OF THE MATERIALS OR SOFTWARE.
+
+For licensing inquiries: hello@sig-ai.app
