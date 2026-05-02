@@ -14,13 +14,17 @@ First public beta. Welcome.
 
 **macOS** (13 Ventura or later)
 
-1. Download `Sig-0.1.0-beta.dmg` from the assets below.
+1. Download `Sig-0.1.0-beta.1-universal.dmg` from the assets below.
 2. Open the DMG and drag Sig to Applications.
 3. Open Sig from Applications. The build is signed and notarized by Apple, so it opens without security warnings.
 
 **Linux**
 
-Download the Linux package from the assets below and follow the install steps in its accompanying README. Captures and notes are stored as plain markdown in the folder you choose during first-run setup.
+1. Download `Sig-0.1.0-beta.1.AppImage` from the assets below.
+2. Make it executable: `chmod +x Sig-0.1.0-beta.1.AppImage`
+3. Run it: `./Sig-0.1.0-beta.1.AppImage`
+
+Captures and notes are stored as plain markdown in the folder you choose during first-run setup.
 
 ## Uninstall
 
