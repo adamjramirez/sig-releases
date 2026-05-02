@@ -60,7 +60,7 @@ Plain English, what leaves your computer and what doesn't:
 1. **Your memory stays on your computer.** People, projects, weeks, thoughts — Sig writes them as plain markdown files in the folder you choose during setup. There is no Sig server holding your content. Open the folder, read the files, copy them, or delete them anytime.
 2. **Your messages go to your provider directly.** When you send a message, Sig talks to your chosen AI provider (Claude, ChatGPT, etc.) from your computer. We don't proxy, log, or intercept those requests. Your provider keys live in your computer's secure keychain.
 3. **Optional connections only run when you turn them on.** Slack, team knowledge base, voice input — each is off by default and disconnectable anytime.
-4. **Anonymous usage counts.** Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, scrubbed crash details. **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text. Events go to an EU-hosted instance — nothing leaves the EU region.
+4. **Anonymous usage counts.** Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, scrubbed crash details. **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text. Events go to PostHog Cloud EU — nothing leaves the EU region. Full list: [ANALYTICS.md](./ANALYTICS.md).
 
 If you uninstall Sig, your notes stay on your computer. There's nothing to export — you already own the files.
 

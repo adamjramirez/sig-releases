@@ -37,7 +37,7 @@ Full policy: https://sig-ai.app/privacy. In-app: Settings → Privacy. Questions
 
 ## Telemetry
 
-Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, and scrubbed crash details. Events go to an EU-hosted instance.
+Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, and scrubbed crash details. Events go to PostHog Cloud EU.
 
 **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text.
 
